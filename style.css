@@ -3312,6 +3312,10 @@ video {
     justify-content: space-between;
   }
 
+  .md\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
   .md\:gap-12 {
     gap: 3rem;
   }
