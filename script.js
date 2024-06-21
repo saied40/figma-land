@@ -1,8 +1,5 @@
-// console.log("all good!");
-
 const menuBtn = document.getElementById("menubar-btn");
 const menubar = document.getElementById("menubar");
-// console.log(menubar);
 
 // console.log(menubar.style.setProperty("background-color", "yellow"));
 
