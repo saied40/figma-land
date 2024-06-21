@@ -751,10 +751,6 @@ video {
   margin: 0.25rem;
 }
 
-.m-40 {
-  margin: 10rem;
-}
-
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -770,9 +766,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .mt-12 {
@@ -785,10 +780,6 @@ video {
 
 .mt-40 {
   margin-top: 10rem;
-}
-
-.mb-32 {
-  margin-bottom: 8rem;
 }
 
 .box-border {
@@ -910,10 +901,6 @@ video {
   height: 100%;
 }
 
-.min-h-\[20000px\] {
-  min-height: 20000px;
-}
-
 .\!w-3\/5 {
   width: 60% !important;
 }
@@ -977,10 +964,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-16 {
-  width: 4rem;
 }
 
 .min-w-full {
@@ -1518,6 +1501,10 @@ video {
   justify-items: stretch;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -1532,6 +1519,10 @@ video {
 
 .gap-16 {
   gap: 4rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-24 {
@@ -1560,14 +1551,6 @@ video {
 
 .gap-9 {
   gap: 2.25rem;
-}
-
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2755,8 +2738,6 @@ video {
   background: var(--gradient02);
 }
 
-/* @config "./tailwind.config.js" */
-
 :root, [data-theme="dark"] {
   /* --color01: #4452FE; */
   /* #4f46e5 */
@@ -3185,10 +3166,6 @@ video {
     display: none;
   }
 
-  .max-lg\:w-3\/5 {
-    width: 60%;
-  }
-
   .max-lg\:flex-col {
     flex-direction: column;
   }
@@ -3313,16 +3290,16 @@ video {
     width: 25%;
   }
 
+  .md\:w-16 {
+    width: 4rem;
+  }
+
   .md\:w-\[70\%\] {
     width: 70%;
   }
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-16 {
-    width: 4rem;
   }
 
   .md\:grid-cols-3 {
@@ -3339,10 +3316,6 @@ video {
 
   .md\:justify-between {
     justify-content: space-between;
-  }
-
-  .md\:justify-evenly {
-    justify-content: space-evenly;
   }
 
   .md\:gap-12 {

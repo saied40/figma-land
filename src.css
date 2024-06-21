@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @config "./tailwind.config.js" */
 
 :root, [data-theme="dark"] {
   /* --color01: #4452FE; *//* #4f46e5 */
