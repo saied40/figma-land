@@ -3,51 +3,14 @@
 @tailwind utilities;
 
 :root, [data-theme="dark"] {
-  /* --color01: #4452FE; *//* #4f46e5 */
-  /* --color02: #02E4C0; */
-  /* --color03: #000000; */
-  /* --color04: #5c5c5c; */
   --color05: #181818;
-  /* --color05-tr: #181818d9; *//* opacity 85% */
-  /* --color06: #112d57; */
   --color07: #ffffff;
-  /* --color08: #231f20; */
-  /* --color09: #565656; */
-  /* --color10: #9fa2a5; */
-  /* --color11: #a4c639; */
-  /* --color12: #d3d3d3; */
-  /* --color13: #13a049; */
-  /* --color14: #17ad49; */
-  /* --color15: #17c9fb; */
-  /* --color16: #1a74e8; */
   --color17: #1e1e1e;
   --color17-tr: #1e1e1e00;
   --color18: #0e0e0e;
-  /* --color19: #1f70c1; */
-  /* --color20: #37bda6; */
-  /* --color21: #8ad3b8; */
-  /* --color22: #4379a7; */
-  /* --color23: #7cc9b8; */
-  /* --color24: #4bb6ad; */
-  /* --color25: #78bbc1; */
-  /* --color26: #66cc66; */
-  /* --color27: #a2cc39; */
-  /* --color28: #b6deff; */
-  /* --color29: #d8d8d8; */
-  /* --color30: #e0565b; */
-  /* --primary: var(--color01); */
-  /* --secondary: var(--color02); */
-  /* --first-text: var(--color03); */
-  /* --second-text: var(--color04); */
-  /* --dark-bg: var(--color05); */
   --body-color: var(--color07);
   --body-bg: var(--color05);
-  /* --header-bg: var(--color05-tr); */
-  /* --gradient01: linear-gradient(var(--color15), var(--color16)); */
   --gradient02: linear-gradient(var(--color17-tr), var(--color18));
-  /* --gradient03: linear-gradient(var(--color20), var(--color21)); */
-  /* --gradient04: linear-gradient(var(--color22), var(--color23)); */
-  /* --gradient05: linear-gradient(50% var(--color24), 100% var(--color25)); */
 }
 
 .menubar {
@@ -153,5 +116,3 @@
     @apply left-0;
   }
 }
-
-/*     animation: merge-nav .6s linear alternate-reverse forwards; */
